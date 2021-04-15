@@ -67,12 +67,13 @@ header .mobile {
 /* About */
 
 #about {
+    /* height not declared, otherwise images will overflow */
     color: #1d5a8c;
 }
 
 .about-text {
-    padding-top: 1rem;
-    margin: 5% 1.5%;
+    padding-top: 0.2rem;
+    margin: 3.5% 1.5%;
 }
 
 #about .photos {
@@ -83,7 +84,6 @@ header .mobile {
 /* images take 30% space */
 #about .photos img {
     width: 30%;
-    padding: 0 0 2.25rem 0;
     margin: 0 1.5%;
 }
 
@@ -101,6 +101,29 @@ header .mobile {
 }
 
 /* Testimonial */
+
+#testimonial {
+    height: 25rem;
+    background-color: #7098b7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font: 1.25rem;
+    padding: 1.25rem;
+    margin: auto;
+}
+
+.quote p {
+    text-align: center;
+}
+
+@media only screen and (max-width: 960px){
+    
+    #testimonial {
+        top: auto;
+    }
+}
 
 /* Call to action */
 
