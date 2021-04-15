@@ -21,7 +21,7 @@ This is an example landing page designed to entice its audience to sign up and j
 * CSS 3
 
 ## Setup 
-[View the site here](https://mworsfold15.github.io/mindfulness/)
+[View the site here](https://mworsfold15.github.io/Mindfulness/)
 
 ## Features
 * CSS flexbox
