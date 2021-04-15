@@ -66,6 +66,40 @@ header .mobile {
 
 /* About */
 
+#about {
+    color: #1d5a8c;
+}
+
+.about-text {
+    padding-top: 1rem;
+    margin: 5% 1.5%;
+}
+
+#about .photos {
+    display: inline-block;
+    margin: 4em auto;
+}
+
+/* images take 30% space */
+#about .photos img {
+    width: 30%;
+    padding: 0 0 2.25rem 0;
+    margin: 0 1.5%;
+}
+
+.middle-img {
+    border-top: 1px solid #99abb8;
+}
+
+/* images take 100% width and display 1-by-1 */
+@media only screen and (max-width: 960px){
+    
+    #about .photos img {
+        width: 100%;
+        margin: 0 0 1% 0;
+    }
+}
+
 /* Testimonial */
 
 /* Call to action */
