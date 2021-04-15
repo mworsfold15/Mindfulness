@@ -1,8 +1,48 @@
 /* All */
 
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
 /* Header */
 
+header {
+    background-color: #1d5a8c;
+    color: white;
+}
+header nav {
+    border: 1px solid white;
+    display: flex;
+}
 
 header .mobile {
     display: none;
 }
+
+header a {
+    display: inline-flex;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-weight: bold;
+    padding: 0 20px 0 20px;
+}
+
+/* Desktop mode: hide the mobile version */
+header .mobile {
+    display: none; 
+}
+
+
+
+/* Mission */
+
+/* About */
+
+/* Testimonial */
+
+/* Call to action */
+
+/* Footer */
