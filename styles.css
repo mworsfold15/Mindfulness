@@ -9,14 +9,13 @@ body {
 /* Header */
 
 header {
-    background-color: #1d5a8c;
+    background-color: #515fbc;
     color: white;
 }
 header nav {
     border: 1px solid white;
     display: flex;
     justify-content: space-evenly;
-    
 }
 
 header .mobile {
@@ -37,24 +36,22 @@ header a {
    
 }
 
-/* Desktop mode: hide the mobile version */
-header .mobile {
-    display: none; 
-}
-
 /* Mission */
 
 #mission {
-    background-color: #7098b7;
     height: 30rem;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
+    background-image: url(images/purple-landscape.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .statement {
-    background-color: #1d5a8c;
+    /* background-color: #1d5a8c; */
     width: 100%;
     text-align: center;
 }
@@ -63,7 +60,7 @@ header .mobile {
 
 #about {
     /* height not declared, otherwise images will overflow */
-    color: #1d5a8c;
+    color: #515fbc;
 }
 
 .about-text {
@@ -99,7 +96,7 @@ header .mobile {
 
 #testimonial {
     height: 25rem;
-    background-color: #7098b7;
+    background-color: #515fbc;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -121,9 +118,6 @@ header .mobile {
     font-size: 1rem;
 }
 
-
-
-
 /* Call to action */
 
 #call-to-action .photos {
@@ -140,7 +134,7 @@ header .mobile {
 }
 
 #call-to-action .meetup {
-    color: #1d5a8c;
+    color: #515fbc;
     text-align: center;
     padding: 1rem;
    }
@@ -164,7 +158,7 @@ header .mobile {
 
 footer {
     height: 3.5rem;
-    background-color: #1d5a8c;
+    background-color: #515fbc;
     color: white;
     display: flex;
     align-items: center;
