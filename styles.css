@@ -83,7 +83,7 @@ header a {
     border-top: 1px solid #99abb8;
 }
 
-/* images take 100% width and display 1-by-1 */
+/* images take 100% width, displaying one at a time */
 @media only screen and (max-width: 960px){
     
     #about .photos img {
@@ -139,7 +139,7 @@ header a {
     padding: 1rem;
    }
 
-/* images take 100% width and display 1-by-1 */
+/* images take 100% width, displaying one at a time */
 @media only screen and (max-width: 960px){
     
     #call-to-action .photos img {
