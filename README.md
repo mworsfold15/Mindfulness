@@ -1,4 +1,4 @@
-# Mindfulness Meditation Landing Page
+# Mindfulness Landing Page
 > A minimalist website landing page to promote a meditation group
 
 ## Table of contents
