@@ -6,6 +6,11 @@ body {
     margin: 0;
 }
 
+/* .container {
+    max-width: 960px;
+    margin: 0 auto;
+  } */
+
 /* Header */
 
 header {
@@ -15,10 +20,16 @@ header {
 header nav {
     border: 1px solid white;
     display: flex;
+    justify-content: space-evenly;
+    
 }
 
 header .mobile {
     display: none;
+}
+
+header ul {
+    padding: 0;
 }
 
 header a {
@@ -27,7 +38,8 @@ header a {
     list-style: none;
     color: white;
     font-weight: bold;
-    padding: 0 20px 0 20px;
+    padding: 0 1.25rem 0 1.25rem;
+   
 }
 
 /* Desktop mode: hide the mobile version */
@@ -35,9 +47,22 @@ header .mobile {
     display: none; 
 }
 
-
-
 /* Mission */
+
+#mission {
+    background-color: #7098b7;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.statement {
+    background-color: #1d5a8c;
+    width: 100%;
+    text-align: center;
+}
 
 /* About */
 
